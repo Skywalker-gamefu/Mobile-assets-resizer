@@ -5,9 +5,13 @@
 #---------------------------------------------------------------
 
 # using pip to install pillow
-#import setup
+import setup
+
 
 
 #main function
 if __name__ == '__main__':
-  
+   
+    setup.install_and_import('pillow')
+    print("start resizing")
+    
