@@ -13,6 +13,6 @@ import CrtDirs
 #main function
 if __name__ == '__main__':
    
-    setup.install_and_import('pillow')
-    CrtDirs.creatinDirs()
+    setup.install_and_import('pillow')#install moudels 
+    CrtDirs.creatinDirs()#check or create directories
     
