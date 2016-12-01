@@ -8,11 +8,12 @@
 import setup
 import CrtDirs
 
-
+def main():
+        setup.install_and_import('pillow')#install moudels 
+        CrtDirs.creatinDirs()#check or create directories
 
 #main function
 if __name__ == '__main__':
+   main()
    
-    setup.install_and_import('pillow')#install moudels 
-    CrtDirs.creatinDirs()#check or create directories
     
