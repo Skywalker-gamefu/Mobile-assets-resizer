@@ -3,7 +3,7 @@
 
 
 def install_and_import(package):
-
+    print("* * * INSTALL DEPENDENCIES. * * *\n")
     import importlib
     try:
         importlib.import_module(package)
@@ -13,7 +13,7 @@ def install_and_import(package):
         pip.main(['install', package])
     finally:
         globals()['PIL'] = importlib.import_module('PIL')
-        print("all moudels installed")
+        print("All modules installed.\n")
 
 
 
