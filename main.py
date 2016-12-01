@@ -6,6 +6,7 @@
 
 # using pip to install pillow
 import setup
+import CrtDirs
 
 
 
@@ -13,5 +14,5 @@ import setup
 if __name__ == '__main__':
    
     setup.install_and_import('pillow')
-    print("start resizing")
+    CrtDirs.creatinDirs()
     
