@@ -12,4 +12,7 @@ def creatinDirs():
             os.makedirs(k)
            
 
-creatinDirs()
+
+
+if __name__ == "CrtDirs":
+    pass
